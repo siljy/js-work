@@ -1,0 +1,1 @@
+School task where I have used the Harry Potter API (https://hp-api.onrender.com/) to show HP characters based on their houses.
