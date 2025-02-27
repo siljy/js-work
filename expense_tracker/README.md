@@ -1,0 +1,1 @@
+Simple expense tracker using Javascript, just for fun!
