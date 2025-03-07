@@ -1,0 +1,61 @@
+body {
+  font-family: monospace;
+  margin: 20px;
+  padding: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 50vw;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+}
+
+.btn {
+  padding: 5px;
+  width: 150px;
+  background-color: lightgray;
+  border: 2px solid darkgray;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.delete-btn {
+  padding: 5px;
+  margin-left: 10px;
+  width: 150px;
+  background-color: #ff9380;
+  border: 2px solid #e74c3c;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: darkgray;
+}
+
+.delete-btn:hover {
+  background-color: #e74c3c;
+}
+
+.expense-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  padding: 5px;
+}
+
+.expense-amount {
+  font-weight: bold;
+}
